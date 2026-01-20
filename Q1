@@ -1,0 +1,16 @@
+class thread extends Thread{
+
+    public void run(){
+        System.out.println("This thread is running.");
+    }
+
+}
+
+public class Q1 {
+
+    public static void main(String []args)
+    {
+        thread t = new thread();
+        t.start();
+    }
+}
