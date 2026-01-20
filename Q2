@@ -1,0 +1,19 @@
+class thread2 implements Runnable{
+
+    Thread t;
+
+    thread2()
+    {
+        t = new Thread(this);
+        t.start();
+    }
+
+    public void run(){}
+}
+
+public class Q2 {
+    public static void main(String []args)
+    {
+        new thread();
+    }
+}
