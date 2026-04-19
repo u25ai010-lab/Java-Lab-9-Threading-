@@ -54,8 +54,8 @@ public class Q5 {
             e.printStackTrace();
         }
 
-        String final = "(" + t1.result + "+" + t2.result + ")";
+        String finale = "(" + t1.result + "+" + t2.result + ")";
 
-        System.out.println("Final Infix Expression: " + final);
+        System.out.println("Final Infix Expression: " + finale);
     }
 }
